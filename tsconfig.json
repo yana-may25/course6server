@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "noEmit": true,
+    "strict": true,
+    "isolatedModules": false,
+    "esModuleInterop": true
+  },
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "homework-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.ts --extensions \".ts\""
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/node": "^7.8.3",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/plugin-proposal-optional-chaining": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-typescript": "^7.8.3",
+    "@types/cors": "^2.8.10",
+    "@types/express": "^4.17.2",
+    "@types/hapi__joi": "^16.0.6",
+    "@types/uuid": "^3.4.6",
+    "@typescript-eslint/eslint-plugin": "^2.16.0",
+    "@typescript-eslint/parser": "^2.16.0",
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.2",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.8.3",
+    "@hapi/joi": "^17.0.2",
+    "core-js": "^3.10.1",
+    "cors": "^2.8.5",
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.1",
+    "express-joi-validation": "^5.0.0",
+    "joi": "^17.4.0",
+    "mysql2": "^2.2.5",
+    "pg": "^8.6.0",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^6.6.2",
+    "sequelize-typescript": "^2.1.0",
+    "uuid": "^3.4.0"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "license": "ISC"
+}
